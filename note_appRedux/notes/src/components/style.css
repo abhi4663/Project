@@ -1,0 +1,214 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+.notes {
+  background-color: lightblue;
+  text-align: center;
+  width: 84%;
+  height: 57px;
+  border-radius: 10px;
+  margin-left: 32px;
+  margin-top: 9px;
+}
+h1 {
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.edit {
+  display: block;
+  position: absolute;
+  top: 95px;
+  left: 635px;
+  background-color: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  box-shadow: -1px 4px 20px -6px rgb(0 0 0 / 75%);
+  width: 50%;
+  height: 400px;
+  padding: 25px;
+}
+.bttn {
+  position: relative;
+  right: -223px;
+  top: 27px;
+}
+.bttn1 {
+  position: relative;
+  top: 27px;
+  left: 241px;
+}
+.get {
+  overflow-y: scroll;
+  width: 40%;
+  height: 400px;
+  background-color: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  /* box-shadow: none; */
+  box-shadow: -1px 4px 20px -6px rgb(0 0 0 / 75%);
+  margin: 39px;
+}
+.form-control {
+  /* color: slategrey; */
+  font-family: cursive;
+  font-size: 20px;
+  font-style: oblique;
+  color: saddlebrown;
+}
+h1,
+h4 {
+  font-style: oblique;
+  font-family: cursive;
+  color: firebrick;
+}
+
+/* @media screen and (max-width: 1000px) {
+  a {
+    color: black;
+  }
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+  .notes {
+    background-color: aliceblue;
+    text-align: center;
+    width: 70%;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+  }
+  h1 {
+    cursor: pointer;
+    text-transform: capitalize;
+  }
+  .edit {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 735px;
+    background-color: whitesmoke;
+    box-shadow: -1px 4px 20px -6px rgb(0 0 0 / 75%);
+    width: 70%;
+    height: 450px;
+    padding: 25px;
+  }
+  .bttn {
+    position: relative;
+    right: -250px;
+    top: 50px;
+  }
+  .bttn1 {
+    position: relative;
+    top: 30px;
+    left: 260px;
+  }
+}
+@media screen and (max-width: 800px) {
+  a {
+    color: black;
+  }
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+  .notes {
+    background-color: aliceblue;
+    text-align: center;
+    width: 70%;
+    height: 57px;
+    border-radius: 10px;
+    position: relative;
+    left: 30px;
+    top: 40px;
+  }
+  h1 {
+    cursor: pointer;
+    text-transform: capitalize;
+  }
+  .edit {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 635px;
+    background-color: whitesmoke;
+    box-shadow: -1px 4px 20px -6px rgb(0 0 0 / 75%);
+    width: 70%;
+    height: 400px;
+    padding: 25px;
+  }
+  .bttn {
+    position: relative;
+    right: -300px;
+    top: 50px;
+  }
+  .bttn1 {
+    position: relative;
+    top: 27px;
+    left: 241px;
+  }
+}
+@media screen and (max-width: 600px) {
+  a {
+    color: black;
+  }
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+  .notes {
+    background-color: aliceblue;
+    text-align: center;
+    width: 30%;
+    height: 57px;
+    border-radius: 10px;
+    position: relative;
+    left: 70px;
+    top: 10px;
+  }
+  h1 {
+    cursor: pointer;
+    text-transform: capitalize;
+  }
+  .edit {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 750px;
+    background-color: whitesmoke;
+    box-shadow: -1px 4px 20px -6px rgb(0 0 0 / 75%);
+    width: 70%;
+    height: 390px;
+    padding: 25px;
+  }
+  .bttn {
+    position: relative;
+    right: -223px;
+    top: 27px;
+  }
+  .bttn1 {
+    position: relative;
+    top: 27px;
+    left: 241px;
+  }
+} */
